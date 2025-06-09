@@ -8,4 +8,14 @@
     <string name="acceso_concedido">¡Acceso concedido!</string>
     <string name="salir">Salir</string>
     <string name="olvidaste_tu_contrase_a">¿Olvidaste tu contraseña?</string>
+    <string name="enviar">Enviar</string>
+    <string name="musicexplorer">MusicExplorer</string>
+    <string name="restablecer_contrase_a">Restablecer contraseña</string>
+    <string name="ingresa_tu_correo_para_recibir_un_enlace_de_recuperaci_n">Ingresa tu correo para recibir un enlace de recuperación.</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="tipo">Tipo: %1$s</string>
+    <string name="marca">Marca: %1$s</string>
+    <string name="modelo">Modelo: %1$s</string>
+    <string name="material">Material: %1$s</string>
+    <string name="ubicaci_n">Ubicación: %1$s, %2$s</string>
 </resources>

@@ -74,5 +74,10 @@ dependencies {
     implementation(libs.maps.compose)
     implementation(libs.play.services.maps)
 
+    implementation(libs.androidx.media3.exoplayer)
+    implementation(libs.androidx.media3.ui)
+
+    implementation(libs.coil)
+    implementation(libs.coil.compose)
 
 }

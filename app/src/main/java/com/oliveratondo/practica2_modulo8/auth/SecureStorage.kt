@@ -33,18 +33,10 @@ class SecureStorage(context: Context) {
         editor.apply()
     }
 
-    fun getUser(): Pair<String?, String?> {
-        val email = sharedPreferences.getString("email", null)
-        val password = sharedPreferences.getString("password", null)
-        return Pair(email, password)
-    }
-
     fun clear() {
         editor.clear()
         editor.apply()
     }
-
-    fun getEditor(): SharedPreferences.Editor = editor
 
     fun saveToken(token: String) {
         editor.putString("token", token)
